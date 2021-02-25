@@ -1,0 +1,76 @@
+
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+
+  background-image: url("images/image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.container {
+    padding: 10px ;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+  background-color: orange;
+  outline: none;
+}
+ div {
+    padding: 10px 0;
+  }
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+input[type=text]:hover,input[type=password]:hover,textarea:hover,Course:hover{
+  transform:scale(1.02);
+  background: ff800a;
+  box-shadow: 2px 2px 2px;
+
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  display: grid;
+  opacity: 0.9;
+  text-align: center;
+}
+.resetbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin-left: 240px ;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  display: grid;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.registerbtn:hover, .resetbtn:hover {
+  opacity: 2;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Registration Form
+    </title>
+</head>
+<body>
+<div class="container">
+<form>
+
+
+        <center>  <h1> Student Registeration Form</h1> </center>
+        <hr>
+        <label> Firstname </label>
+        <input type="text" name="firstname" placeholder= "Firstname" size="15" required />
+        <label> Middlename: </label>
+        <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+        <label> Lastname: </label>
+        <input type="text" name="lastname" placeholder="Lastname" size="15"required />
+        <label>DOB: </label>
+        <input type="date" name="dob"  required style="padding: 8px 5px">
+
+        <div>
+            <label>
+                Course :
+            </label>
+
+            <select style="padding: 8px 5px">
+                <option value="Course">Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M.Tech">M.Tech</option>
+            </select>
+        </div>
+        <div>
+            <label>
+                Gender :
+            </label><br>
+            <input type="radio" value="Male" name="gender" checked > Male
+            <input type="radio" value="Female" name="gender"> Female
+            <input type="radio" value="Other" name="gender"> Other
+
+        </div>
+        <label style="padding: 5px">
+            Country Code
+        </label>
+
+        <select style="padding: 8px 5px">
+            <option value="Select">Select</option>
+            <option value="code">+91 India</option>
+            <option value="code">+92 Pakistan</option>
+            <option value="code">+45 Denmark</option>
+        </select>
+
+        <input type="text" name="phone" placeholder="phone no." size="10" required>
+        Current Address :
+        <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
+         </textarea>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Re-type Password</b></label>
+        <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+        <button type="submit" class="registerbtn">Register</button>
+        <button type="reset" class="resetbtn">Reset</button>
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
+
+
